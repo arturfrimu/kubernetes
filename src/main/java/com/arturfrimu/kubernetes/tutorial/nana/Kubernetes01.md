@@ -211,3 +211,11 @@ kubectl get pod -o wide
 ```
 
 Poti vedea ca ip-urile podurilor coincid cu cele din Endpoints la service
+
+### Status created by Kubernetes
+
+```shell
+kubectl get deployment nginx-deployment -o yaml
+```
+
+Poti compara nginx-deployment.yaml cu nginx-deployment-status-k8s.yaml sa vezi ce a adugat k8s la deployment dupa creare
