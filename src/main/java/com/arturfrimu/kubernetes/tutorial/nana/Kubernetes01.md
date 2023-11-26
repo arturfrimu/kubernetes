@@ -162,3 +162,24 @@ kubectl get pod
 ```shell
 kubectl get replicaset
 ```
+
+### Personal test. Delete 1 pod manually and look if K8s starts automatically a new pod
+```shell
+kubectl get pods
+```
+
+```shell
+kubectl delete pod nginx-deployment-854bc88786-687qq
+```
+
+```shell
+kubectl get pod
+```
+
+```shell
+kubectl get deployment
+```
+
+```shell
+kubectl get replicaset
+```
