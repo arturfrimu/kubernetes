@@ -126,3 +126,39 @@ kubectl get pod
 ```shell
 kubectl get replicaset
 ```
+
+### Create a file nginx-deployment.yaml with deployment configuration
+
+```shell
+kubectl apply -f nginx-deployment.yaml
+```
+
+```shell
+kubectl get deployment
+```
+
+```shell
+kubectl get pod
+```
+
+```shell
+kubectl get replicaset
+```
+
+### Edit  nginx-deployment.yaml replicas to 2
+
+```shell
+kubectl apply -f nginx-deployment.yaml
+```
+
+```shell
+kubectl get deployment
+```
+
+```shell
+kubectl get pod
+```
+
+```shell
+kubectl get replicaset
+```
