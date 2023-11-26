@@ -225,3 +225,9 @@ Poti compara nginx-deployment.yaml cu nginx-deployment-status-k8s.yaml sa vezi c
 ```shell
 kubectl delete -f nginx-deployment.yaml
 ```
+
+### Delete service with file
+
+```shell
+kubectl delete -f nginx-service.yaml
+```
