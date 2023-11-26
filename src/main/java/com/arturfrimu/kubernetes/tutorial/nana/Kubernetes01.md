@@ -183,3 +183,31 @@ kubectl get deployment
 ```shell
 kubectl get replicaset
 ```
+
+### Create one deployment and one service
+
+```shell
+kubectl apply -f nginx-deployment.yaml
+```
+
+```shell
+kubectl apply -f nginx-service.yaml
+```
+
+```shell
+kubectl get pod
+```
+
+```shell
+kubectl get services
+```
+
+```shell
+kubectl describe services nginx-service
+```
+
+```shell
+kubectl get pod -o wide
+```
+
+Poti vedea ca ip-urile podurilor coincid cu cele din Endpoints la service
