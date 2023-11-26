@@ -219,3 +219,9 @@ kubectl get deployment nginx-deployment -o yaml
 ```
 
 Poti compara nginx-deployment.yaml cu nginx-deployment-status-k8s.yaml sa vezi ce a adugat k8s la deployment dupa creare
+
+### Delete deployment with file
+
+```shell
+kubectl delete -f nginx-deployment.yaml
+```
